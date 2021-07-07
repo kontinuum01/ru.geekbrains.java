@@ -1,7 +1,6 @@
 package ru.geekbrains.java;
 
 public class Employee {
-
     public static void main(String[] args) {
 
         new Employee("Jackson Peter", "Manager", "jackson3302@mail.com", 5553302, 2500, 28);
