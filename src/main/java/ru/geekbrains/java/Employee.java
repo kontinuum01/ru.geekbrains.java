@@ -22,8 +22,9 @@ public class Employee {
         this.numberphone = numberphone;
         this.thesalary = thesalary;
         this.age = age;
-     //   System.out.println(" Employee Name: " + fullname + "; Position: " + position + "; Email: " + email +
-     //           "; Number Phone: " + numberphone + "; The Salary: " + thesalary + "$; Возраст: " + age);private void printInfo()
+
+  //      System.out.println(" Employee Name: " + fullname + "; Position: " + position + "; Email: " + email +
+  //              "; Number Phone: " + numberphone + "; The Salary: " + thesalary + "$; Возраст: " + age);
     }
 
     public int getAge() {
