@@ -42,13 +42,13 @@ public class Persons {
         persArray[3] = new Persons("Ekimov Anton Grigorievich", "Technolog", "antonmov@mail.com", 892978658, 43000, 50);
         persArray[4] = new Persons("Protasov Jurii Aleksandrovich", "Engineer", "protjur1@mail.com", 892963054, 54500, 66);
         for (Persons persons : persArray) {
-            if (persons.getAge() > 40)
+            if (persons.getAge() >= 40)
                 persons.printinfo();
                 System.out.println(persons.isRetired());
         }
     }
         private void printinfo() {
-      System.out.printf("persons %s, position: %s, email: %s, numberphone: %s, thesalary: %d$, age: %d\n", this.fullname, this.position, this.email, this.numberphone, this.thesalary, this.age);
+      System.out.printf("persons %s, position: %s, email: %s, numberphone: %s, thesalary: %dRUB, age: %d\n", this.fullname, this.position, this.email, this.numberphone, this.thesalary, this.age);
 
 
     }
