@@ -1,47 +1,49 @@
 package ru.geekbrains.java;
 
 public class Employee {
-    private static String fullname;
-    private static String position;
-    private static String email;
-    private static int numberphone;
-    private static int thesalary;
-    private static int age;
+    private static int counter;
+    private String fullName;
+    private String position;
+    private String email;
+    private int phone;
+    private int thesalary;
+    private int age;
 
-    public static void main(String[] args) {
-
-        new Employee("Jackson Peter", "Manager", "jackson3302@mail.com", 5553302, 2500, 28);
-        print();
-
-
-    }
-
-    public Employee(String fullname, String position, String email, int numberphone, int thesalary, int age) {
-
-        this.fullname = fullname;
+    public Employee(String fullName, String position, String email, int phone, int thesalary, int age) {
+        this.fullName = fullName;
         this.position = position;
         this.email = email;
-        this.numberphone = numberphone;
+        this.phone = phone;
         this.thesalary = thesalary;
         this.age = age;
-
-    }
-    private static void print(){
-        System.out.println(" Employee Name: " + fullname + "; Position: " + position + "; Email: " + email +
-                "; Number Phone: " + numberphone + "; The Salary: " + thesalary + "$; Age: " + age);
+        counter++;
     }
 
+    public int getAge() {
+        return age;
     }
 
+    public static int getCounter() {
+        return counter;
+    }
 
+    public boolean isRetired() {
+        return this.age >= 65;
+    }
 
+    public void printInfo() {
+        System.out.printf("Person: %s, position: %s, email: %s, phone: %s, salary: %d RUB, age: %d;\n", this.fullName, this.position, this.email, this.phone, this.thesalary, this.age);
+    }
+    public  void printing() {
+        System.out.printf("Person: %s, position: %s, email: %s, phone: %s, salary: %d$, age: %d;\n", this.fullName, this.position, this.email, this.phone, this.thesalary, this.age);
+    }
 
+    protected void printingInfo() {
+        System.out.println("Pensioner");
+    }
 
-
-
-
-
-
-
-
+    protected void printinginfo() {
+        System.out.println("Is not a pensioner");
+    }
+}
 
