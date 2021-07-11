@@ -38,11 +38,11 @@ public class Employee {
         System.out.printf("Person: %s, position: %s, email: %s, phone: %s, salary: %d$, age: %d;\n", this.fullName, this.position, this.email, this.phone, this.thesalary, this.age);
     }
 
-    protected void printingInfo() {
+    public void printingInfo() {
         System.out.println("Pensioner");
     }
 
-    protected void printinginfo() {
+    public void printinginfo() {
         System.out.println("Is not a pensioner");
     }
 }
