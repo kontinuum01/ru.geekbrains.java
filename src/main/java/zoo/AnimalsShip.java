@@ -1,7 +1,7 @@
 package zoo;
 
 
-public class AnimalsHome {
+public class AnimalsShip {
     public static void main(String[] args) {
         Cat cat = new Cat("Барсик", "черный");
         Dog dog = new Dog("Шарик", "белый");
