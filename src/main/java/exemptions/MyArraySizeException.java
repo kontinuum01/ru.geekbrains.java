@@ -1,4 +1,4 @@
-package Exemptions;
+package exemptions;
 
 public class MyArraySizeException extends Throwable {
 

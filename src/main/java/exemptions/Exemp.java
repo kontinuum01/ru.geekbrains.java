@@ -1,4 +1,4 @@
-package Exemptions;
+package exemptions;
 
 public class Exemp extends Throwable {
 
