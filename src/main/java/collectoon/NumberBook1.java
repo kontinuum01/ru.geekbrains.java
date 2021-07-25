@@ -1,6 +1,6 @@
 package collectoon;
 
-public class Numberphonee {
+public class NumberBook1 {
     public static void main(String[] args) {
 
         Methods.addpb("Petrov","929514638");
