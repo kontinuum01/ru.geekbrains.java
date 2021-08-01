@@ -7,7 +7,6 @@ public class Numbers<T extends Number> {
         this.number = number;
     }
 
-
     public T[] getNumbers() {
         for (T element : number) ;
         for (int i = 0; i < number.length; i++) ;

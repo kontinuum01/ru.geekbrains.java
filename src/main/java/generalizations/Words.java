@@ -12,7 +12,8 @@ public class Words<T extends String> {
           for (int i = 0; i < wordses.length; i++) ;
           return wordses;
       }
-// реверс элементов в массиве
+
+      // реверс элементов в массиве
       public T[] reverse() {
             for (T element :wordses) {
                 for (int i = 0; i < wordses.length; i++) {
