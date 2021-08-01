@@ -26,5 +26,4 @@ public class DemoBoxApp {
         String[] arrayOfStrings = {"A", "B", "C", "D"};
         asList(arrayOfStrings);
     }
-
 }

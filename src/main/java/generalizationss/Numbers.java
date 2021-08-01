@@ -23,7 +23,6 @@ public class Numbers<T extends Number> {
             }
             return number;
     }
-
 }
 
 

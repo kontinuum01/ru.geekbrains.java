@@ -11,8 +11,8 @@ class ArayLists {
         ArrayList<T> alt = new ArrayList<>(Arrays.asList(arr));
         System.out.println(alt);
 
-            }
-        }
+    }
+}
 
 
 

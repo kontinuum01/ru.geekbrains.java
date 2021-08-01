@@ -1,4 +1,4 @@
-package generalizations;
+package generalizationss;
 
 import java.util.ArrayList;
 
@@ -34,8 +34,3 @@ class Box<T extends Fruit> {
         box.clear();
     }
 }
-
-
-
-
-

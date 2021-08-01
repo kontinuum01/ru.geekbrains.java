@@ -22,7 +22,6 @@ public class Words<T extends String> {
                     wordses[1] = rev;
                 }
             }
-
             return wordses;
         }
     }

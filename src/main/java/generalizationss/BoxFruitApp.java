@@ -1,5 +1,4 @@
-package generalizations;
-
+package generalizationss;
 
 public class BoxFruitApp {
     public static void main(String args[]) {
@@ -36,6 +35,5 @@ public class BoxFruitApp {
         System.out.println("Box 2 compare with box 4: "+or1.compare(ap1));
 
     }
-    }
-
+}
 
