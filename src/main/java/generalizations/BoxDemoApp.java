@@ -5,7 +5,7 @@ import static generalizations.ArayLists.asList;
 
 public class BoxDemoApp {
     public static void main(String[] args) {
-//1 задание.
+//1 задание...
         Numbers<Integer> intStats = new Numbers<Integer>(1, 2, 3, 4, 5);
         System.out.println("Origin Massive " + Arrays.toString(intStats.getNumbers()));
         System.out.println("Reverse Massive " + Arrays.toString(intStats.reverse()));
@@ -20,7 +20,7 @@ public class BoxDemoApp {
         System.out.println("Origin Massive " + Arrays.toString(stringAccount.getNumbers()));
         System.out.println("Reverse Massive " + Arrays.toString(stringAccount.reverse()));
         System.out.println("---------------------------------------");
-//2 задание.
+//2 задание...
         System.out.println("Massive converting ArrayList");
         String[] arrayToarrayList = {"A", "B", "C", "D"};
         asList(arrayToarrayList);
