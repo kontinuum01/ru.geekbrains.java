@@ -1,4 +1,4 @@
-package generalizations;
+package generalizationss;
 
 public class Numbers<T extends Number> {
     private T[] number;

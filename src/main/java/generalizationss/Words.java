@@ -1,4 +1,4 @@
-package generalizations;
+package generalizationss;
 
 public class Words<T extends String> {
     private T[] wordses;

@@ -1,9 +1,9 @@
-package generalizations;
+package generalizationss;
 
 import java.util.Arrays;
-import static generalizations.ArayLists.asList;
+import static generalizationss.ArayLists.asList;
 
-public class BoxDemoApp {
+public class DemoBoxApp {
     public static void main(String[] args) {
 //1 задание...
         Numbers<Integer> intStats = new Numbers<Integer>(1, 2, 3, 4, 5);
@@ -20,13 +20,11 @@ public class BoxDemoApp {
         System.out.println("Origin Massive " + Arrays.toString(stringAccount.getNumbers()));
         System.out.println("Reverse Massive " + Arrays.toString(stringAccount.reverse()));
         System.out.println("---------------------------------------");
+
 //2 задание...
         System.out.println("Massive converting ArrayList");
-        String[] arrayToarrayList = {"A", "B", "C", "D"};
-        asList(arrayToarrayList);
-
-
-
+        String[] arrayOfStrings = {"A", "B", "C", "D"};
+        asList(arrayOfStrings);
     }
-}
 
+}
