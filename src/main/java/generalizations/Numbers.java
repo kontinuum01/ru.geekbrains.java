@@ -3,7 +3,6 @@ package generalizations;
 public class Numbers<T extends Number> {
     private T[] number;
 
-
     public Numbers(T... number) {
         this.number = number;
     }
